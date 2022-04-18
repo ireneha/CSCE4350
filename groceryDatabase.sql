@@ -1,21 +1,21 @@
 create table manager
-	(managerID		char(5) not null,
-	 first_name		varchar(20) not null,
+	(managerID		varchar(5) not null,
+	first_name		varchar(20) not null,
      last_name		varchar(20) not null,
      salary			numeric(8,2) not null,
      ssn 			char(9) not null,
 	 
-	 primary key (mangerID)
+	 primary key (managerID)
 	);
     
-    create table employee
+create table employee
 	(employeeID		char(5) not null,
 	 first_name		varchar(20) not null,
      last_name		varchar(20) not null,
      salary			numeric(8,2) not null,
      ssn 			char(9) not null,
      
-	 primary key (mangerID)
+	 primary key (employeeID)
 	);
     
     create table product
@@ -72,7 +72,7 @@ create table manager
 	);
     
     create table item
-	(item_number			char(5) not null,
+	(itemNumber			char(5) not null,
 	 
 	 primary key (itemNumber)
 	);
@@ -160,6 +160,6 @@ create table manager
 	(orderID 				char(5) not null,
      order_date				char(8) not null,
      
-     primary key (orderId)
+     primary key (orderID)
 	);
 
