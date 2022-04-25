@@ -49,7 +49,6 @@ create table payment_method(
      	experation_date		char(4) not null,
      	cash			varchar(1000), 
      	amount			varchar(1000) not null,
-     	payment_date		char(8) not null,
      
 	primary key (paymentID)
 	);
