@@ -64,12 +64,12 @@ insert into product values('cl91','Cleaners');
 insert into product values('ba02','Bakery');
 
 	
-insert into customer values('John','Smith', 'jsmith@gmail.com', '1111111111');
-insert into customer values('Bill','Bradley', 'bbrad@gmail.com', '1232234312');
-insert into customer values('Jim','Johnson', 'jjohn@gmail.com', '4135244534');
-insert into customer values('Jack','Kim', 'jackkim@gmail.com', '9877866354');
-insert into customer values('Stephanie','Kellet', 'stephellet@gmail.com', '2143765476');
-insert into customer values('Avery','Kyryzowski', 'averykryz@gmail.com', '9722355486');
+insert into customer values('c01','John','Smith', 'jsmith@gmail.com', '1111111111');
+insert into customer values('c02','Bill','Bradley', 'bbrad@gmail.com', '1232234312');
+insert into customer values('c03','Jim','Johnson', 'jjohn@gmail.com', '4135244534');
+insert into customer values('c04','Jack','Kim', 'jackkim@gmail.com', '9877866354');
+insert into customer values('c05','Stephanie','Kellet', 'stephellet@gmail.com', '2143765476');
+insert into customer values('c06','Avery','Kyryzowski', 'averykryz@gmail.com', '9722355486');
 
 
 insert into supplier values('11111','Sysco');
@@ -145,7 +145,6 @@ insert into shelf values('aisle 13');
 insert into shelf values('aisle 14');
 insert into shelf values('aisle 15');
 
-
 insert into paycheck values('1111','direct deposit','1000.56','04012022');
 insert into paycheck values('09234','direct deposit','600.12','04012022');
 insert into paycheck values('48593','check','1550.00','04012022');
@@ -168,13 +167,6 @@ insert into warehouse values('10000','E 6th St, Prosper Tx','75078');
 insert into warehouse values('11543','Ponder Rd, Denton TX','76201');
 insert into warehouse values('18749','Veronica St, Flower Mound TX','75022');
 
-insert into shipment values('55024','04012019','UPS','500 Inman St, Denton TX, 76201');
-insert into shipment values('40403','08302020','UPS','200 Bonnie Brae St, Denton TX, 76205');
-insert into shipment values('76238','03032021','FedEx','155 Precision Dr, Denton TX, 76205');
-insert into shipment values('17943','06142019','UPS','905 Cleveland St, Denton TX, 76201');
-insert into shipment values('29752','11232020','UPS','2601 West Oak St, Denton TX, 76201');
-insert into shipment values('36287','10202021','FedEx','200 Inman St, Denton TX, 76201');
-
 insert into dependents values ('Barbara', 'Walter','05041993');
 insert into dependents values ('Peyton', 'Bailey','08111998');
 insert into dependents values ('Natalie', 'Rogers','11082002');
@@ -191,6 +183,13 @@ insert into dependents values ('Orville', 'Wright', '11282006');
 insert into dependents values ('Jacklyn', 'Hill', '12312010');
 insert into dependents values ('Valerie', 'Rivera', '05162002');
 insert into dependents values ('Micah', 'Campell', '02142006');
+
+insert into shipment values('55024','04012019','UPS','500 Inman St, Denton TX, 76201');
+insert into shipment values('40403','08302020','UPS','200 Bonnie Brae St, Denton TX, 76205');
+insert into shipment values('76238','03032021','FedEx','155 Precision Dr, Denton TX, 76205');
+insert into shipment values('17943','06142019','UPS','905 Cleveland St, Denton TX, 76201');
+insert into shipment values('29752','11232020','UPS','2601 West Oak St, Denton TX, 76201');
+insert into shipment values('36287','10202021','FedEx','200 Inman St, Denton TX, 76201');
 
 insert into delivery values('14094','07202021','UPS');
 insert into delivery values('19676','08302021','UPS');
