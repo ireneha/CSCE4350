@@ -86,9 +86,9 @@ insert into payment_method values('10346','0938757893122356','453','1220','250',
 insert into payment_method values('73632','2235466832904657','874','0603','100','12192022');
 
  
-insert into promotion values('11111','01312022','03012022');
-insert into promotion values('22222','04102022','0510222');
-insert into promotion values('33333','05012022','06012022');
+insert into promotion values('11111','01312022','03012022','be03');
+insert into promotion values('22222','04102022','0510222','ca02');
+insert into promotion values('33333','05012022','06012022','pc01');
 
 
 insert into membership values('11111','gold','01012024','0');
@@ -167,22 +167,22 @@ insert into warehouse values('10000','E 6th St, Prosper Tx','75078');
 insert into warehouse values('11543','Ponder Rd, Denton TX','76201');
 insert into warehouse values('18749','Veronica St, Flower Mound TX','75022');
 
-insert into dependents values ('Barbara', 'Walter','05041993');
-insert into dependents values ('Peyton', 'Bailey','08111998');
-insert into dependents values ('Natalie', 'Rogers','11082002');
-insert into dependents values ('Zayd', 'Peterson','03302000');
-insert into dependents values ('Isabella', 'Ruiz','07152000');
-insert into dependents values ('Isaiah', 'Powell','12132006');
-insert into dependents values ('Lesley', 'Perry','01271999');
-insert into dependents values ('Graham', 'Walter','09162004');
-insert into dependents values ('Christian', 'Robinson', '07222002');
-insert into dependents values ('Ian', 'Lee', '10062001');
-insert into dependents values ('William', 'Scott', '04082005');
-insert into dependents values ('Fatima', 'Torres', '06232000');
-insert into dependents values ('Orville', 'Wright', '11282006');
-insert into dependents values ('Jacklyn', 'Hill', '12312010');
-insert into dependents values ('Valerie', 'Rivera', '05162002');
-insert into dependents values ('Micah', 'Campell', '02142006');
+insert into dependents values ('Barbara', 'Walter','05041993', 'm91');
+insert into dependents values ('Peyton', 'Bailey','08111998', 'm203');
+insert into dependents values ('Natalie', 'Rogers','11082002', 'm033');
+insert into dependents values ('Zayd', 'Peterson','03302000', 'm68');
+insert into dependents values ('Isabella', 'Ruiz','07152000', 'm84');
+insert into dependents values ('Isaiah', 'Powell','12132006', 'm012');
+insert into dependents values ('Lesley', 'Perry','01271999', 'm220');
+insert into dependents values ('Graham', 'Walter','09162004', 'm153');
+insert into dependents values ('Christian', 'Robinson', '07222002', 'e111');
+insert into dependents values ('Ian', 'Lee', '10062001', 'e134');
+insert into dependents values ('William', 'Scott', '04082005', 'e180');
+insert into dependents values ('Fatima', 'Torres', '06232000', 'e177');
+insert into dependents values ('Orville', 'Wright', '11282006', 'e129');
+insert into dependents values ('Jacklyn', 'Hill', '12312010', 'e116');
+insert into dependents values ('Valerie', 'Rivera', '05162002', 'e104');
+insert into dependents values ('Micah', 'Campell', '02142006', 'e162');
 
 insert into shipment values('55024','04012019','UPS','500 Inman St, Denton TX, 76201');
 insert into shipment values('40403','08302020','UPS','200 Bonnie Brae St, Denton TX, 76205');
