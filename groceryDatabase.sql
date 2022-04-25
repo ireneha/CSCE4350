@@ -57,6 +57,7 @@ create table promotion(
 	promotionID		char(5) not null,
 	start_date		char(8) not null,
      	end_date		char(8) not null,
+     	productID		char(5),
 	 
 	primary key (promotionID)
 	);
@@ -118,8 +119,9 @@ create table dependents(
 	first_name 		varchar(20) not null,
      	last_name 		varchar(20) not null,
      	date_of_birth		varchar(8) not null,
+	employeeID		char(5) not null,
      
-     	primary key (first_name,last_name)
+     	primary key (employeeID)
 	);
     
 create table shipment(
